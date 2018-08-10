@@ -8,15 +8,15 @@ router.post('/logout', controller.users.logout);
 
 router.post('/signup', controller.users.signup);
 
-router.get('/itineraries', controller.itineraries.getAll);
+// router.get('/itineraries', controller.itineraries.getAll);
 
-router.get('/itinerary/:id', controller.itineraries.getById);
+// router.get('/itinerary/:id', controller.itineraries.getById);
 
-router.post('/itinerary', controller.itineraries.createItinerary);
+// router.post('/itinerary', controller.itineraries.createItinerary);
 
-router.get('/stop', controller.stop.get);
+// router.get('/stop', controller.stop.get);
 
-router.post('/stop', controller.stop.createStop);
+// router.post('/stop', controller.stop.createStop);
 
 module.exports = router;
 
